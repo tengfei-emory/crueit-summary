@@ -149,7 +149,7 @@ select=read.csv("data/subtype_select.csv")
     
     output$download_plotly_widget <- downloadHandler(
       filename = function() {
-        paste("/users/yilin/Downloads/data-", Sys.Date(), ".html", sep = "")
+        paste("C:/Users/feit1/Downloads/data-", Sys.Date(), ".html", sep = "")
       },
       content = function(file) {
         # export plotly html widget as a temp file to download.
